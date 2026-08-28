@@ -86,6 +86,50 @@ nav {
     letter-spacing: 0.6px;
 }
 
+.nav__logo--img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
+    margin: 0 24px;
+    }
+
+.nav__link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background: #6415ff;
+    transition: all 300ms ease;
+    opacity: 0;
+}
+
+
 
 .btn__menu {
     display: none;
@@ -241,11 +285,10 @@ header .row {
 
 .header__img {
     width: 100%;
-    min-width: 768px;
 }
 
 .header__img--wrapper {
-    width: calc(100% - 40);
+    width: 60%;
 }
 
 .header__customers {
@@ -253,6 +296,8 @@ header .row {
     padding-right: 128px;
     opacity: 0.5;
     color: #a0aec0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__customers--title {
@@ -261,6 +306,8 @@ header .row {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.6;
+    display: flex;
+    flex-direction: column;
 }
 
 
