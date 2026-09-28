@@ -52,6 +52,17 @@ h1 {
   line-height: 1.5;
 }
 
+.section__tag {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6415ff;
+  letter-spacing: 0.6px;
+}
+
+h2 {
+  font-size: 48px
+}
+
 /* 
 
 NAVBAR ↓
@@ -450,6 +461,7 @@ QUALITY WORK ↓
 #quality .section__title
 #values .section__title {
     line-height: 1.25;
+    font-size: 48px;
 }
 
 #quality .btn {
@@ -481,6 +493,7 @@ display: flex;
     background-image: radial-gradient(#6415ff 2px, transparent 2px);
     z-index: -1;
 }
+
 
 .quality__img {
     z-index: 1;
@@ -521,6 +534,7 @@ steps__img {
   display: flex;
   align-items: flex-start;
   margin-top: 32px;
+}
 
   .step__number {
     color: #cbd5e0;
@@ -534,6 +548,7 @@ steps__img {
     flex-direction: column;
     margin-left: 24px;
     max-width: 320px;
+  }
 
     .step__title {
       font-size: 20px;
